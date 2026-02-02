@@ -1,0 +1,27 @@
+{
+  "name": "castengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seansuen90/castengine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/seansuen90/castengine/issues"
+  },
+  "homepage": "https://github.com/seansuen90/castengine#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
